@@ -42,7 +42,6 @@ Additionally, wind speeds of these hurricanes, recorded at 6-hour intervals, wer
 * The rmsprop optimizer was used for model optimization, with the mean squared error loss function. During training, this optimizer adjusted the network’s weights to minimize loss
 * During training, the model calculated two metrics to evaluate its performance on the training set: mean absolute error and root mean squared error.
 * The model’s performance on the validation set was reviewed after each epoch to check for overfitting. An EarlyStopping callback was used to halt training if the validation error did not improve after a certain number of epochs.
-* 
 
 ### Conclusion
 CNNs can efficiently predict hurricane intensity, potentially mitigating significant consequences through timely action.
